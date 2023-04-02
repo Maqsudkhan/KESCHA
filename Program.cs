@@ -1,4 +1,13 @@
-﻿System.Console.Write("Enter your name: ");
+﻿string password = "";
+do{
+    System.Console.Write("Enter password: ");
+    password = Console.ReadLine();
+} 
+while(password != "Maqsudkhan");
+
+System.Console.WriteLine("Password opened!!!\n");
+
+System.Console.Write("Enter your name: ");
 string name = Console.ReadLine();
 System.Console.Write("Enter you age: ");
 string ageString = Console.ReadLine();
